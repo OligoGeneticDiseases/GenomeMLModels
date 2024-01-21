@@ -10,3 +10,17 @@ Most VCFs of different generations can be re-annotated with up-to-date frequency
 
 ## Boosted decision tree
 A boosted decision tree will be used as the base model for simple tabular containing both strings and float values using available open source machine learning frameworks.
+
+## Expected project structure
+- A Jupyter Notebook entry point replacing main
+  - Config parameters
+    - Maximum depth
+    - Features
+    - Learning rate and other boosting params
+    - Dataset sizes
+  - The notebook should be section with data input, ML tree and loss function,  output layer
+    - Tabular output of VCFs and potential pathogenic variants
+  - Power calculations section
+2. src/calcs_module
+3. tests/
+4. trained_model_published
