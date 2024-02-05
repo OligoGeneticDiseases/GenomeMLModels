@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T14:04:28.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="7OCKbj3XH9D7DL_11tOw" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T14:19:37.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BwqV1vztx0JpGIzWr8YK" version="23.1.1" type="github">
   <diagram name="Page-1" id="yLdyAgAhy5sliRw4i6jr">
     <mxGraphModel dx="794" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,23 +68,23 @@
         <mxCell id="ovGhK_PuXHXMLangWI-R-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovGhK_PuXHXMLangWI-R-19" target="ovGhK_PuXHXMLangWI-R-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ovGhK_PuXHXMLangWI-R-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="ovGhK_PuXHXMLangWI-R-25" value="Phenotype-sample database (contains monogenic variants input --globals)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-80" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ovGhK_PuXHXMLangWI-R-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovGhK_PuXHXMLangWI-R-27" target="ovGhK_PuXHXMLangWI-R-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ovGhK_PuXHXMLangWI-R-27" value="Test data (known/not known)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="130" width="170" height="30" as="geometry" />
+        <mxCell id="ovGhK_PuXHXMLangWI-R-27" value="Test data (known/not known)&lt;br&gt;20% of total data, with 50% being monogenic known" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="130" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ovGhK_PuXHXMLangWI-R-28" value="Salted VCFs (monogenic variant injected 80/20" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="ovGhK_PuXHXMLangWI-R-28" value="Salted VCFs (monogenic variant injected 80/20)&amp;nbsp;&lt;br&gt;to create synthetic &lt;b&gt;known frequency&lt;/b&gt;&amp;nbsp;from not known data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="135" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ovGhK_PuXHXMLangWI-R-30" value="&lt;h1&gt;&lt;b style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;End usecase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="280" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ovGhK_PuXHXMLangWI-R-31" value="File tree" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="510" width="300" height="120" as="geometry" />
+          <mxGeometry x="30" y="510" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ovGhK_PuXHXMLangWI-R-32" value="I/O layer (Hail based) - previously built layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ovGhK_PuXHXMLangWI-R-31">
           <mxGeometry y="30" width="300" height="30" as="geometry" />
@@ -92,12 +92,12 @@
         <mxCell id="ovGhK_PuXHXMLangWI-R-33" value="ML-module ( Tensorflow implementation) - Jupyter Notebook" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ovGhK_PuXHXMLangWI-R-31">
           <mxGeometry y="60" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ovGhK_PuXHXMLangWI-R-34" value="Statistics module - calculate statistics about accuracy of module" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ovGhK_PuXHXMLangWI-R-31">
-          <mxGeometry y="90" width="300" height="30" as="geometry" />
+        <mxCell id="ovGhK_PuXHXMLangWI-R-34" value="Statistics module - calculate statistics about accuracy of module and graphing (i.e. final product for presentation)I" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ovGhK_PuXHXMLangWI-R-31">
+          <mxGeometry y="90" width="300" height="60" as="geometry" />
         </mxCell>
         <UserObject label="https://www.illumina.com/products/by-type/clinical-research-products/trusight-cancer-hereditary.html" link="https://www.illumina.com/products/by-type/clinical-research-products/trusight-cancer-hereditary.html" id="ovGhK_PuXHXMLangWI-R-43">
           <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry y="-40" width="560" height="50" as="geometry" />
+            <mxGeometry x="10" y="-110" width="560" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="ovGhK_PuXHXMLangWI-R-44" value="Data fields per SNP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
